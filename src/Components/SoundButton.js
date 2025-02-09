@@ -26,9 +26,17 @@ export function SoundButton() {
   };
 
   return (
-<button className="sound-button" onClick={toggleSound} style={{ background: "transparent", border:"none", paddingLeft: "80%", paddingTop: "50px" }}>
-  {muted ? "🔇" : "🔊"} 
-</button>
+<div className="header" style={{ display: "flex", alignItems: "center", marginLeft : "50%" }}>
+  <h2 className="header-text" style={{ marginRight: "10px" }}>Hi <span style={{color:"red"}}>Liz</span> 💖</h2>
+  <button 
+    className="sound-button" 
+    onClick={toggleSound} 
+    style={{ background: "transparent", border: "none", cursor: "pointer" }}
+  >
+    {muted ? "🔇" : "🔊"} 
+  </button>
+</div>
+
 
   );
 }
