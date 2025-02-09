@@ -8,7 +8,7 @@ export default function ValentineDay() {
     return (
       <div className="valentine-day-container">
         <h1 className="title1">And Finally!!! Valentine Day 💖</h1>
-        <p className="subtitle1" style={{color : "darkgreen", fontSize: "18px"}}>{yesSelected ? "We Are Looking Gorgeous Together!!!" : "Let's Celebrate Valentine Day Vertually. Click On The Envelope"}</p>
+        <p className="subtitle1" style={{color : "darkgreen", fontSize: "18px"}}>{yesSelected ? "We Are Looking Gorgeous Together!!!" : "Let's Celebrate Valentine Day Virtually. Click On The Envelope"}</p>
         <div
           className="container"
           onMouseEnter={() => setIsOpen(true)}
