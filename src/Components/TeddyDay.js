@@ -9,7 +9,7 @@ export default function TeddyDay() {
   return (
     <div className="rose-day-container">
       <div className="heartbeat-background"></div>
-      <h1 className="title">Haa Meri Jaan, It's Taddy Day</h1>
+      <h1 className="title">Haa Meri Jaan, It's Teddy Day</h1>
       <p className="subtitle">{yesSelected ? "I Know You Love It, hehe!!!" : "You Received a Gift from Your Future Husband, Open It"}</p>
       
       <div 
